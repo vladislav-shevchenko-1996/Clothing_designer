@@ -1,16 +1,26 @@
-body {
-   background-color: #fdefef;
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
    font-family: Ubuntu;
    font-style: normal;
    font-weight: normal;
-   margin: 0px;
-   padding: 0px;
+}
+html {
+   background-color: rgb(160, 160, 236);
+}
+body {
+   background-color: #fdefef;
+   margin-left: 35%;
+   transform: translate(-30%);
+   margin-top: 20px;
    display: flex;
    flex-direction: column;
+   max-width: 1440px;
 }
 .menu-box {
-   position: absolute;
-   width: 100%;
+   align-items: center;
+   width: auto;
    height: 52px;
    background: #fcfcfc;
    border: 2px solid #d8a0a0;
@@ -19,9 +29,9 @@ body {
 }
 
 .main-menu {
+   margin-left: 40px;
 }
 .logo {
-   position: relative;
    height: 100%;
    width: 52px;
    background-color: crimson;
@@ -31,49 +41,49 @@ body {
    display: inline-block;
    margin-right: 45px;
 }
+.main-menu-elem:hover a {
+   color: #9e9b9b;
+}
 .main-menu-elem a {
    color: #827d7d;
    text-decoration: none;
    font-size: 28px;
 }
+.log-me {
+   color: #827d7d;
+   margin-left: 680px;
+   font-size: 24px;
+}
 main {
-   position: relative;
    display: flex;
    flex-direction: row;
-   top: 78px;
-   left: 30px;
    height: 831px;
+   padding: 30px;
 }
 .maneken {
-   position: relative;
    width: 291px;
    height: 760px;
-   left: 50%;
-   top: 35px;
+   margin-left: 50%;
+   margin-bottom: 35px;
    transform: translate(-50%);
 }
 .constructor-view-box {
-   position: relative;
-   width: 875px;
-
+   min-width: 875px;
    background: #ffffff;
    border: 2px solid #e7e7e7;
-   box-sizing: border-box;
    border-radius: 19px;
 }
 .front-back-view {
-   position: inherit;
-   left: 742px;
-   bottom: 10px;
+   margin-left: 742px;
+   margin-top: -100px;
 }
 .pointer:hover:hover .triangle {
    fill: #d8a0a0;
 }
 
 .constructor-items-box {
-   position: relative;
    width: 446px;
-   left: 43px;
+   margin-left: 43px;
    height: auto;
    background: #e9e9e9;
    border: 2px solid #d8a0a0;
