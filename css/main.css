@@ -66,9 +66,6 @@ main {
    left: 742px;
    bottom: 10px;
 }
-.front-button {
-   position: inherit;
-}
 .pointer:hover:hover .triangle {
    fill: #d8a0a0;
 }
