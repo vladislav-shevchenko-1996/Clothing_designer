@@ -69,9 +69,6 @@ main {
 .front-button {
    position: inherit;
 }
-.pointer:hover:hover .triangle {
-   fill: #d8a0a0;
-}
 
 .constructor-items-box {
    position: relative;
