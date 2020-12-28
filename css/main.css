@@ -10,10 +10,10 @@ html {
    background-color: rgb(160, 160, 236);
 }
 body {
-   background-color: #fdefef;
-   margin-left: 35%;
-   transform: translate(-30%);
-   margin-top: 20px;
+   position: absolute;
+   /* margin-left: 35%; */
+   /* transform: translate(-30%); */
+   /* margin-top: 20px; */
    display: flex;
    flex-direction: column;
    max-width: 1440px;
@@ -29,6 +29,7 @@ body {
 }
 
 .main-menu {
+   margin-top: 10px;
    margin-left: 40px;
 }
 .logo {
@@ -51,10 +52,16 @@ body {
 }
 .log-me {
    color: #827d7d;
+   text-decoration: none;
    margin-left: 680px;
    font-size: 24px;
 }
+
+.log-me:hover {
+   color: #9e9b9b;
+}
 main {
+   background-color: #fdefef;
    display: flex;
    flex-direction: row;
    height: 831px;
